@@ -2,11 +2,31 @@
 
 A modern, responsive school attendance management system built with React and TypeScript. ClassTrack helps schools manage student records, monitor daily attendance, organize classes and teachers, and generate attendance reports through an intuitive and user-friendly interface..
 
+## Key Features
+
+Dashboard: View an overview of school attendance and student records.
+Student Management: Add, view, and manage student information.
+Class Management: Organize students by class.
+Teacher Management: Manage teacher records.
+Daily Attendance: Record and update students' attendance status.
+Attendance History: Search and review previous attendance records.
+Reports: Generate attendance summaries and export records to CSV.
+Responsive Interface: Access the system through a compatible desktop or mobile browser.
+
+## Technology Stack
+
+Frontend: React and TypeScript
+Build Tool: Vite
+Package Manager: npm
+Data Storage: Browser localStorage in the current implementation
+Backend Integration: Supabase can be integrated for centralized data storage, authentication, and multi-user access.
+
 ## Requirements
 
 - Node.js LTS (includes npm)
 - Visual Studio Code
 - A web browser
+- Git for version control (optional)
 
 ## 1. Install Node.js
 
@@ -25,9 +45,9 @@ Both commands should print version numbers.
 
 Extract the project ZIP to a folder you can find, for example `Documents/primary-school-attendance`.
 
-In VS Code choose **File → Open Folder...** and select that folder.
+Open Visual Studio Code, select File → Open Folder, and choose the project directory containing package.json.
 
-## 3. Install project packages
+## 3. Install Dependancies
 
 In the VS Code terminal, run:
 
@@ -49,26 +69,37 @@ Vite will print a local address, usually `http://localhost:5173/`. Hold **Ctrl**
 
 Keep the terminal running while using the site. To stop the server, focus the terminal and press **Ctrl + C**.
 
-## 5. Try these features
-
-1. Open **Students** and add a test student.
-2. Open **Attendance**, choose the student's class, select today's date, and set each student's status.
-3. Click **Save attendance**.
-4. Open **History** and try the search and filters.
-5. Open **Reports** and export a CSV file.
-6. Refresh the browser. Your students and attendance should still be there.
-
-The sample student names and guardian details are fictional demo data. Replace them with no real student information until the app has proper authentication and security.
-
-## Useful commands
+## 5. Installation and Setup
+- Install Node.js
+Download and install Node.js from https://nodejs.org/.
+After installation, restart your terminal and verify the installation:
 
 ```bash
-npm run dev      # Run the development server
-npm run build    # Check TypeScript and create a production build
-npm run preview  # Preview the production build locally
+node -v
+npm -v
+```
+Both commands should display version numbers.
+
+-- Open the Project
+Open Visual Studio Code, select **File → Open Folder**, and choose the project directory containing `package.json`.
+-- Install Dependencies
+Open the integrated terminal and run:
+
+```bash
+npm install
+```
+Wait for the installation to complete.
+
+-- Start ClassTrack
+Run the development server:
+
+```bash
+npm run dev
 ```
 
-Run `npm run build` before considering the prototype ready to deploy. Fix any errors shown in the terminal.
+Vite will display a local URL, usually `http://localhost:5173/`. Open that address in your browser to access the application.
+
+Keep the terminal open while using the development server. Press `Ctrl + C` in the terminal to stop it.
 
 ## Important limitations
 
