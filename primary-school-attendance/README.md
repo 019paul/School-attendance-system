@@ -1,6 +1,6 @@
 # ClassTrack — Primary School Attendance Management System
 
-A beginner-friendly React + TypeScript web prototype. It uses browser `localStorage`, so it does not require a backend or account to run.
+A modern, responsive school attendance management system built with React and TypeScript. ClassTrack helps schools manage student records, monitor daily attendance, organize classes and teachers, and generate attendance reports through an intuitive and user-friendly interface..
 
 ## Requirements
 
